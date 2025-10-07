@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog Basis Data - UBP Karawang</title>
+  <style>
+    /* === Styling Umum === */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* === Header === */
+    header {
+      background-color: #004aad;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* === Setiap Postingan === */
+    section {
+      background-color: white;
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 800px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      color: #004aad;
+    }
+
+    /* === Footer === */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #004aad;
+      color: rgb(0, 0, 0);
+    }
+
+    /* === Logo Kampus === */
+    .btn-logo img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid white;
+      transition: transform 0.3s;
+    }
+
+    .btn-logo img:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Blog Basis Data</h1>
+    <p>UBP Karawang</p>
+  </header>
+
+  <section>
+    <h2>Post 2: Apa itu Attribute, Entitas, dan Relasi dalam ERD</h2>
+    <p>
+      <strong>Entitas</strong> adalah objek atau hal yang dapat diidentifikasi secara unik dalam sistem basis data, 
+      misalnya <em>Mahasiswa</em>, <em>Dosen</em>, atau <em>Mata Kuliah</em>.
+    </p>
+
+    <p>
+      <strong>Attribute</strong> adalah karakteristik atau properti dari sebuah entitas. 
+      Misalnya, entitas <em>Mahasiswa</em> memiliki atribut seperti <em>NIM</em>, <em>Nama</em>, dan <em>Alamat</em>.
+    </p>
+
+    <p>
+      <strong>Relasi</strong> adalah hubungan antara dua atau lebih entitas. 
+      Contohnya, entitas <em>Mahasiswa</em> memiliki relasi dengan <em>Mata Kuliah</em> melalui proses <em>mengambil</em> atau <em>mendaftar</em>.
+    </p>
+
+    <p>
+      Dalam diagram ERD (Entity Relationship Diagram), entitas digambarkan sebagai persegi panjang, 
+      atribut sebagai elips, dan relasi sebagai belah ketupat.
+    </p>
+  </section>
+
+  <footer>
+    <p>Kunjungi Website Kampus:</p>
+    <a class="btn-logo" href="https://www.ubpkarawang.ac.id" target="_blank">
+      <img src="assets/logo-ubp.png" alt="UBP Karawang">
+    </a>
+    <p>&copy; 2025 Blog Basis Data - UBP Karawang</p>
+  </footer>
+</body>
+</html>
